@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Clases de Baile - Academia Sin Límite</title>
+    <meta
+      name="description"
+      content="Explora todas nuestras clases de Salsa, Bachata, Merengue y Champeta. Filtra por nivel, duración y precio para encontrar la clase perfecta para ti."
+    />
+    <meta
+      name="keywords"
+      content="clases de baile, cursos de salsa, cursos de bachata, aprender a bailar, academia de baile"
+    />
+
+    <!-- Favicons -->
+    <link href="assets/img/LogSLblack.jpg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="courses-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img
+            src="assets/img/LogoSinL.PNG"
+            alt="logoSL"
+            class="img-fluid"
+            style="width: 50px; height: auto"
+          />
+          <h1 class="sitename">Academia Sin Limite</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="courses.html" class="active">Clases</a></li>
+            <!-- <li><a href="instructors.html">Profesores</a></li> -->
+            <li><a href="contact.html">Ubicación</a></li>
+            <li>
+              <a href="https://wa.me/573203285943" target="_blank">
+                <i class="bi bi-whatsapp" style="font-size: 30px"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title light-background">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Nuestras Clases</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Inicio</a></li>
+              <li class="current">Clases</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Courses 2 Section -->
+      <section id="courses-2" class="courses-2 section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-3">
+              <div
+                class="course-filters"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <h4 class="filter-title">Clases</h4>
+
+                <div class="filter-group">
+                  <h5>Ritmo</h5>
+                  <div class="filter-options">
+                    <label class="filter-checkbox">
+                      <!-- <input type="checkbox" checked=""> -->
+
+                      Todos los Ritmos
+                    </label>
+                    <label class="filter-checkbox" checked="">
+                      <!-- <input type="checkbox"> -->
+                      <!--  -->
+                      Salsa
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Bachata
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Merengue
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Champeta
+                    </label>
+                  </div>
+                </div>
+
+                <div class="filter-group">
+                  <h5>Nivel</h5>
+                  <div class="filter-options">
+                    <label class="filter-checkbox">
+                      <input type="checkbox" checked="" />
+
+                      Todos los Niveles
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Principiante
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Intermedio
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Avanzado
+                    </label>
+                  </div>
+                </div>
+
+                <div class="filter-group">
+                  <h5>Duración</h5>
+                  <div class="filter-options">
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Clase Única
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      4 Semanas
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      8 Semanas
+                    </label>
+                  </div>
+                </div>
+
+                <div class="filter-group">
+                  <h5>Precio</h5>
+                  <div class="filter-options">
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      Gratis
+                    </label>
+                    <label class="filter-checkbox">
+                      <input type="checkbox" />
+
+                      De Pago
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- End Course Filters -->
+            </div>
+
+            <div class="col-lg-9">
+              <div
+                class="courses-header"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              ></div>
+
+              <div class="courses-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                    <div class="course-card">
+                      <div class="course-image">
+                        <img
+                          src="assets/img/education/bailando9.jpeg"
+                          alt="Clase de Salsa"
+                          class="img-fluid"
+                        />
+                        <div class="course-badge">Más Solicitado</div>
+                        <!--<div class="course-price">$80git </div>-->
+                      </div>
+                      <div class="course-content">
+                        <div class="course-meta">
+                          <span class="category">Salsa</span>
+                          <span class="level">Principiante</span>
+                        </div>
+                        <h3>Salsa en Pareja Nivel 1</h3>
+                        <p>
+                          Aprende los pasos básicos, giros y figuras esenciales
+                          de la salsa en un ambiente divertido y social. ¡No
+                          necesitas experiencia previa!
+                        </p>
+                        <div class="course-stats">
+                          <div class="stat">
+                            <i class="bi bi-clock"></i>
+                            <span>8 Semanas</span>
+                          </div>
+                          <div class="stat">
+                            <i class="bi bi-people"></i>
+                            <span>20 Alumnos</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Course Card -->
+                  </div>
+
+                  <div class="col-lg-6 col-md-6">
+                    <div class="course-card">
+                      <div class="course-image">
+                        <img
+                          src="assets/img/education/bailando12.jpeg"
+                          alt="Clase de Champeta"
+                          class="img-fluid"
+                        />
+                        <div class="course-badge badge-free">Gratis</div>
+                      </div>
+                      <div class="course-content">
+                        <div class="course-meta">
+                          <span class="category">Champeta</span>
+                          <span class="level">Todos</span>
+                        </div>
+                        <h3>Introducción a la Champeta Urbana</h3>
+                        <p>
+                          ¡Siente la energía del Caribe! Únete a nuestra clase
+                          de prueba gratuita y aprende los movimientos básicos
+                          de la champeta.
+                        </p>
+                        <div class="course-stats">
+                          <div class="stat">
+                            <i class="bi bi-clock"></i>
+                            <span>1 Clase</span>
+                          </div>
+                          <div class="stat">
+                            <i class="bi bi-people"></i>
+                            <span>30 Alumnos</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Course Card -->
+                  </div>
+
+                  <div class="col-lg-6 col-md-6">
+                    <div class="course-card">
+                      <div class="course-image">
+                        <img
+                          src="assets/img/education/bailando2.jpeg"
+                          alt="Clase de Bachata"
+                          class="img-fluid"
+                        />
+                        <div class="course-badge badge-new">Salsa</div>
+                        <!-- <div class="course-price">$150</div> -->
+                      </div>
+                      <div class="course-content">
+                        <div class="course-meta">
+                          <span class="category">Bachata</span>
+                          <span class="level">Intermedio</span>
+                        </div>
+                        <h3>Bachata Sensual y Fusión</h3>
+                        <p>
+                          Perfecciona tu técnica con figuras complejas, ondas
+                          corporales y musicalidad para llevar tu bachata al
+                          siguiente nivel.
+                        </p>
+                        <div class="course-stats">
+                          <div class="stat">
+                            <i class="bi bi-clock"></i>
+                            <span>8 Semanas</span>
+                          </div>
+                          <div class="stat">
+                            <i class="bi bi-people"></i>
+                            <span>18 Alumnos</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Course Card -->
+                  </div>
+
+                  <div class="col-lg-6 col-md-6">
+                    <div class="course-card">
+                      <div class="course-image">
+                        <img
+                          src="assets/img/education/bailando1.jpeg"
+                          alt="Clase de Bachata"
+                          class="img-fluid"
+                        />
+                        <div class="course-badge badge-certificate">
+                          Merengue
+                        </div>
+                      </div>
+                      <div class="course-content">
+                        <div class="course-meta">
+                          <span class="category">Bachata</span>
+                          <span class="level">Intermedio</span>
+                        </div>
+                        <h3>Merengue de Salón</h3>
+                        <p>
+                          El ritmo perfecto para empezar a bailar. Aprende el
+                          paso básico y giros sencillos para disfrutar en
+                          cualquier fiesta latina.
+                        </p>
+                        <div class="course-stats">
+                          <div class="stat">
+                            <i class="bi bi-clock"></i>
+                            <span>4 Semanas</span>
+                          </div>
+                          <div class="stat">
+                            <i class="bi bi-people"></i>
+                            <span>25 Alumnos</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Course Card -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Courses Grid -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Courses 2 Section -->
+    </main>
+
+    <footer id="footer" class="footer accent-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Academia de Baile</span>
+            </a>
+            <p>
+              Vive la pasión por el baile con nosotros. Clases para todas las
+              edades y niveles, ambiente divertido y profesores certificados.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+              <a href="https://www.facebook.com/CLAUDIOPASTRANTORRES" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/academia.sinlimite/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Enlaces Útiles</h4>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="about.html">Sobre nosotros</a></li>
+              <li><a href="courses.html">Clases</a></li>
+              <li><a href="terms.html">Términos de servicio</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Nuestras Clases</h4>
+            <ul>
+              <li><a>Salsa</a></li>
+              <li><a>Bachata</a></li>
+              <li><a>Merengue</a></li>
+              <li><a>Champeta</a></li>
+
+              <li><a>Más...</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contáctanos</h4>
+            <p>Polideportivo Quinta Oriental,/p>
+            <p>Cúcuta, Colombia</p>
+            <p class="mt-4">
+              <strong>Teléfono:</strong> <span> +57 3203285943</span>
+            </p>
+            <p><strong>Email:</strong> <span>info@academiabaile.com</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Academia de Baile</strong>
+          <span>Todos los derechos reservados</span>
+        </p>
+        <div class="credits">
+          <!-- Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
